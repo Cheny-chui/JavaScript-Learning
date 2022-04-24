@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src="./script.js" defer></script>
-  </head>
-  <body>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <div class="quiz-container">
+    <div class="quiz-header">
+      <h2 id="questionName">Easy Quiz</h2>
+      <ul>
+        <li>
+          <input type="radio" id="a" name="answer" value="a">
+          <label for="a" id="a_text">Q1</label>
+        </li>
+        <li>
+          <input type="radio" id="b" name="answer" value="b">
+          <label for="b" id="b_text">Q2</label>
+        </li>
+        <li>
+          <input type="radio" id="c" name="answer" value="c">
+          <label for="c" id="c_text">Q3</label>
+        </li>
+        <li>
+          <input type="radio" id="d" name="answer" value="d">
+          <label for="d" id="d_text">Q4</label>
+        </li>
+
+      </ul>
+    </div>
+    <button id="submitButton">Submit</button>
+  </div>
+</body>
+
 </html>
